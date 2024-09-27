@@ -68,8 +68,8 @@ namespace MentalMusicians.Controllers
             return CreatedAtRoute("GetById",new {id= musicianEntity.Id},musicianEntity); // yeni müzisyen gönderilir 201 status code ile
         }
 
-        [HttpPatch("rename/{id:int:min(1)}/{newName:string:minlength(3)}")]
-        public IActionResult Rename(int id, string newName, [FromBody] MusicianEntity musicianEntity) // müzisyenin ismini güncellemek için kullanılır
+        [HttpPatch("rename/{id:int:min(1)}/{newName:minlength(3)}")]
+        public IActionResult Rename(int id, string newName, [FromBody] MusicianEntity musicianEntity) // müzisyenin ismini güncellemek //için kullanılır
         {
             if(!ModelState.IsValid) // modele uygun değilse bad request döner
                 return BadRequest(ModelState);

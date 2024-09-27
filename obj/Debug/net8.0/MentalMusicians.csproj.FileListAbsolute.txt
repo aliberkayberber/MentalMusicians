@@ -30,3 +30,4 @@
 /Users/aliberkayberber/Documents/Pratikler/MentalMusicians/obj/Debug/net8.0/MentalMusicians.pdb
 /Users/aliberkayberber/Documents/Pratikler/MentalMusicians/obj/Debug/net8.0/MentalMusicians.genruntimeconfig.cache
 /Users/aliberkayberber/Documents/Pratikler/MentalMusicians/obj/Debug/net8.0/ref/MentalMusicians.dll
+/Users/aliberkayberber/Documents/Pratikler/MentalMusicians/obj/Debug/net8.0/MentalMusicians.sourcelink.json
